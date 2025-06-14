@@ -1,0 +1,283 @@
+/* ---------------BODY---------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', 'sans-serif';
+  line-height: 1.6;
+  background-color: #84AE92 ;
+   color: #333;
+ 
+}
+
+.grid{
+  display: flex;
+  padding: 0 0 0 30%;
+}
+
+.divider{
+  background-color: #5F8B4C;
+  width: 100%;
+  
+}
+
+.divider p{
+  color: #5F8B4C;
+}
+
+.section {
+  padding: 5% 0 0 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#middle{
+  padding: 75px 0 0 5%;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 2em;
+  color: #5096B68 ;
+}
+
+.center{
+  text-align: center;
+  text-decoration: none;
+}
+
+
+/* ----------------------------------*/
+
+/* --------------- NAV  ---------------*/
+
+.main-nav {
+  background-color: #5F8B4C;
+  position: fixed;
+  width: 100%;
+ 
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content:center;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+.main-nav ul li {
+  margin: 0 15px;
+   font-weight: 150
+    
+}
+
+.main-nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 150%;
+  font-family: Times New Roman
+
+}
+
+.main-nav ul li a:hover {
+  color: #6DE1D2;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 100px;
+  font-weight:bold ;
+}
+
+/* ------------------------------------*/
+
+/* ---------------HEADER---------------*/
+
+#pic{
+  border-radius: 100%;
+  width: 200px;
+  max-width: 300px;
+  height: 180px;
+}
+
+#name {
+  font-size: 3.5vmax;
+  font-weight:bold;
+  color: black;
+  margin: 0;
+}
+
+#info{
+  font-size: 2.5vmax;
+  font-weight:bold ;
+  color: black;
+  margin: 0;
+}
+
+.space{
+  margin: 40% 0 0 0;
+  
+}
+
+#first{
+  color: #84AE92;
+  padding: 0 0 2% 0 ;
+}
+
+/* ------------------------------------*/
+
+/* ---------------ABOUT ME---------------*/
+
+#about h2{
+  font-size: 3.5vmax;
+  color: black;
+   font-family: Monospace;
+
+  
+  
+}
+
+#about p{
+  font-size: 2vmax;
+   
+   
+  
+}
+
+/* --------------------------------------*/
+
+/* ---------------SKILLS---------------*/
+
+#skills h1{
+  font-size: 2.5vmax;
+  color: black;
+}
+
+#skills p{
+  font-size: 2vmax;
+}
+
+#skills h2{
+  font-size: 3.5vmax;
+  color: black;
+   font-family: Monospace;
+
+}
+
+/* ------------------------------------*/
+
+/* ---------------CERTIFICATE---------------*/
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.project-card {
+  background-color:#C4E1E6;
+  padding: 50px;
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  padding-block-end: 50pxpx;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.9em;
+}
+
+.project-card p {
+  font-size: 1em;
+  color: black;
+}
+
+.no-style{
+  text-decoration: none;
+  color: #254D70;
+}
+
+/* -----------------------------------------*/
+
+
+/* ---------------CONTACT---------------*/
+
+#contact h1{
+  font-size: 2.5vmax;
+  color: black;
+}
+
+#contact a{
+  font-size: 2vmax;
+}
+
+#contact h2{
+  font-size: 3.5vmax;
+  color: black;
+   font-family: Monospace;
+
+}
+
+.contactlink{
+  text-decoration: none;
+  color: #EEEFE0;
+}
+
+/* -------------------------------------*/
+
+/* ---------------FOOTER---------------*/
+
+.main-footer {
+  background-color: #5F8B4C;
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+   font-size: 15px;
+}
+
+.main-footer a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.main-footer a:hover {
+  text-decoration: underline;
+}
+
+/* ------------------------------------*/
+
+/* ---------------DARK MODE---------------*/
+
+body.dark-mode {
+    background-color: #328E6E;
+    color: white;
+}
+
+body.dark-mode nav {
+    background-color: #333;
+}
+
+body.dark-mode nav ul li a, body.dark-mode nav ul li button {
+    color: #ccc;
+}
+
+body.dark-mode section {
+    background-color: #222;
+}
+
+/* ---------------------------------------*/
